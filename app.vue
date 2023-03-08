@@ -1,11 +1,5 @@
 <template>
-  <div>
-    NuxtWelcome
-    <div class="wrapper"></div>
-  </div>
+  <NuxtLayout>
+    <NuxtPage></NuxtPage>
+  </NuxtLayout>
 </template>
-<style lang="scss" scoped>
-.wrapper {
-  border: 1px solid red;
-}
-</style>
